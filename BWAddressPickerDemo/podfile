@@ -1,0 +1,11 @@
+platform :ios,'9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+target 'BWAddressPickerDemo' do
+# 忽略引入库的所有警告
+inhibit_all_warnings!
+pod 'SnapKit'
+pod 'HandyJSON', '~> 5.0.0-beta.1'
+
+
+end
